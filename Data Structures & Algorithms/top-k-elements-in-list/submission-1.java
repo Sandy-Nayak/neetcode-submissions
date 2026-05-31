@@ -19,6 +19,9 @@ class Solution {
         for(int i = k-1; i >= 0; i--){
             result[i] = heap.poll();
         }
+        // for(int i = 0; i < k; i++){
+        //     result[i] = heap.poll();
+        // }
         return result;
     }
 }
